@@ -61,7 +61,7 @@ int b[10000000];
 int main(){
     n = getarray(b);
     int i = 0;
-    while (i < 100000) {
+    while (i < 10) {
         int j = 0;
         while (j < n) {
             a[j] = b[j];
